@@ -49,4 +49,9 @@ Simplified version of leetcode
 
 ### 3.2 Demo
 
+- Multiple coders can code in the same question. Below the editor, we can see the sockit Id of the coders. Different coders colaborate by socket.io. 
+- The codes will be saved in a database redis, if you leave the page and reopen it, the code will still be there.
+- The code questions are stored in MongoDB.
+- After you finish the coding, you can submit the codes to a docker image to execute it via Flask. And you will receive a    message after successfully submiting
 
+![img](https://github.com/PeterPei666/Collaborative_Online_Judge_System/blob/master/img/show.gif)
